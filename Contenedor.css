@@ -1,0 +1,82 @@
+body{
+    width: 100%;
+    color: antiquewhite;
+    
+}
+
+.contenedor{
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    background: #cf995f;
+    margin: auto;
+    margin-bottom: 10px;
+    
+
+}
+
+
+h2{
+    font-size: 40px;
+    width: auto;
+    text-align: left;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    color: #32292f;
+    background-color: #cf995f;
+    justify-content: flex-start;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+input{
+    width: 550px;
+    background-color: antiquewhite;
+    text-align: right;
+    box-sizing: 100%;
+    margin-left: 5px;
+    
+    
+}
+
+ul.points{
+    width: 100%;
+   justify-content: flex-start;
+   margin-left: 2px;
+   font-size: 20px;
+   padding-bottom: 10px;
+   
+   
+  
+}
+div.lista{
+    justify-items: center;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 12px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #32292f;
+    color: antiquewhite;
+    border-radius: 25px;
+    
+}
+
+li{
+    display: flex;
+    border-radius: 10px;
+    width: 95%;
+    padding-left: 7px;
+    background-color: #32292f;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    scrollbar-width: thin;
+    
+}
